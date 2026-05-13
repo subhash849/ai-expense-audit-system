@@ -1,30 +1,30 @@
-# 💼 AI-Powered Expense Audit System
+#  AI-Powered Expense Audit System
 
-## 📌 Overview
+##  Overview
 This project is an AI-powered system that automates expense claim validation using OCR and intelligent decision-making. It extracts data from receipts and evaluates claims against company policies using rule-based logic and Retrieval-Augmented Generation (RAG).
 
 It also includes a Human-in-the-Loop system where auditors can review and override AI decisions.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📄 OCR-based receipt processing (Tesseract + EasyOCR fallback)
-- 🧠 Intelligent data extraction (merchant, amount, date, currency)
-- 📊 Policy validation using RAG (semantic search on policy documents)
-- ⚠️ Detection of prohibited expenses (e.g., alcohol)
-- 📅 Date validation between receipt and claim
-- 👨‍💼 Auditor dashboard with override capability
-- 💾 Claim storage with tracking and notifications
+-  OCR-based receipt processing (Tesseract + EasyOCR fallback)
+-  Intelligent data extraction (merchant, amount, date, currency)
+-  Policy validation using RAG (semantic search on policy documents)
+-  Detection of prohibited expenses (e.g., alcohol)
+-  Date validation between receipt and claim
+-  Auditor dashboard with override capability
+-  Claim storage with tracking and notifications
 
 ---
 
-## 🧩 System Flow
+##  System Flow
 User Upload → OCR → Data Extraction → Validation → Policy Retrieval (RAG) → Decision → Storage → UI
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Python  
 - **Backend:** Flask  
@@ -36,7 +36,7 @@ User Upload → OCR → Data Extraction → Validation → Policy Retrieval (RAG
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ai-expense-audit-system/
 │
@@ -55,7 +55,7 @@ ai-expense-audit-system/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 Make sure Python and pip are installed on your system.
 
 ### 1. Install dependencies
