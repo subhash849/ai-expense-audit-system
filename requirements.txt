@@ -1,0 +1,10 @@
+flask
+streamlit
+pytesseract
+opencv-python
+easyocr
+pdf2image
+PyPDF2
+numpy
+faiss-cpu
+sentence-transformersgit
